@@ -29,7 +29,8 @@ https://github.com/mani47/ruby_tuesday/blob/master/computer.rb
 At this point in the development of Computer, you find yourself bogged down in a swampland of repetitive copy and paste. You have a long list of methods
 left to deal with, and you should also write tests for each and every method, because it’s easy to make mistakes in duplicated code.
 
-There are two different ways to remove this duplication.
+So here we used two different ways to remove this duplication.
 
-1- ruby Dynamic methods
-2- ruby Method Missing
+1- Dynamic methods (A ruby meta/dynamic programming concept, you can read more from here https://apidock.com/ruby/Module/define_method)
+
+2- Method Missing (https://apidock.com/ruby/BasicObject/method_missing)
